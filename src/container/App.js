@@ -19,6 +19,8 @@ function App() {
 
   const onButtonClick = () => {
     setTodoListItem([...todoListItem, { isChecked: false, input }]);
+    setInput('');
+    setButtonState(true);
   }
 
   const onChecked = (event) => {
@@ -62,7 +64,7 @@ function App() {
 
   return (
     <div>
-      <AddTodo onInputChange={onInputChage} buttonState={buttonState} onButtonClick={onButtonClick} />
+      <AddTodo onInputChange={onInputChage} buttonState={buttonState} onButtonClick={onButtonClick} input={input} />
       <TodoList todoListItem={todoListItem} onChecked={onChecked} checkedItem={checkedItem} onDelete={onDelete} />
     </div>
   );

@@ -1,6 +1,6 @@
 import './TodoList.css';
 
-const TodoList = ({ todoListItem, onChecked, checkedItem, onDelete }) => {
+const TodoList = ({ todoListItem, onChecked, onDelete }) => {
     return (
         <div className='center'>
             { todoListItem.length !== 0 ?
