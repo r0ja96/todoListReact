@@ -1,0 +1,37 @@
+.center{
+    display: flex;
+    justify-content: center;    
+} 
+
+.todoListContainer{
+    background: white;
+    width: 300px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.todoList{
+
+    list-style: none;
+}
+
+.todoList li{
+    border-bottom: 1px solid gray;
+    padding: 1rem 0;
+    color: lightblue;
+}
+
+.todoListContainer button{
+    display: block;
+    margin: 1rem auto ;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: lightblue;
+    color: white;
+    cursor: pointer;
+}
+
+.todoList li input[type ='checkbox']{
+    
+}

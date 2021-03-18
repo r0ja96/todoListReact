@@ -1,0 +1,31 @@
+.addTodo-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.addTodo-bg{
+    display: flex;
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+}
+
+.addTodo-bg input[type='text'], .addTodo-bg button{
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.addTodo-bg input[type='text']{
+    flex: 1;
+}
+
+.addTodo-bg button{
+    display: inline-block;
+    background: red;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+}
